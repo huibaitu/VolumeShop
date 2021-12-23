@@ -30,12 +30,28 @@ You can double click to open DICOM file in VolumeShop.
 <img src="https://res.cloudinary.com/huibaitu/image/upload/v1639534606/VolumeShop/doubleClickOpen.gif" alt="rightButtonOpen" width="100%"/>
 
 ### Open directory
+Display all DICOM files in a directory.
+
+1. Click "Open directory" button or select "Open DICOM directory" from drop-down menu on the right side of the button.
+
+2. From the pop-up dialog, select the directory that contains DICOM files and click "Choose" button.
+
+3. VolumeShop will display DICOM files with the sort by patient, study and series.
 
 ### Add directory
+Append the DICOM files in a directory to the existing list of series.
+
+1. Select "Add DICOM directory" in drop-down menu that comes up by clicking the arrow button right next to "Open directory" button.
+
+2. Select the directory you want to add and click "Choose" button from the pop-up dialog.
+
+3. The DICOM files in added directory will merge with exsiting files, make sure that neither of patients, studies, series and images is redundant.
 
 ### Open files
+Display the selected files.
 
 ### Add files
+Append the chosen files to the existing list of series.
 
 ## Manage DICOM files
 
