@@ -71,11 +71,31 @@ Append the chosen files to the existing list of series.
 In "Recent files" of drop-down menu, the five most recent files are listed that make it easier to find DICOM files you have viewed with VolumeShop.
 
 ## Export DICOM files
-Export DICOM file in BMP, JPG or PNG formats to save as a normal image for different uses.
+With VolumeShop, it's easy to export a DICOM file to a normal image in BMP, JPG or PNG formats. Start VolumeShop, and open the DICOM files you want to export. You could export current DICOM file or series by "Save as image" or "Save as image series", separately.
 
 ### Save as image
+Save the current image as image in a specified format.
+
+1. Select "Save as image" in drop-down menu that comes up by clicking the arrow button right next to "Save file" button.
+
+2. From the pop-up dialog, choose a file format, such as BMP, JPG or PNG.
+
+3. Select a folder and input a filename for the exported file.
+
+4. Click "Save" button.
+
+Tip: Check "Open the saved directory" in the Export dialog if you want to work with the exported file immediately.
 
 ### Save as image series
+Save the current series as image series.
+
+1. Click "Save as image series" in drop-down menu.
+
+2. From the pop-up dialog, choose a file format, such as BMP, JPG or PNG.
+
+3. Select a folder for the exported images and click "Choose" button.
+
+Tip: Check "Rename in numerical order" in the Export dialog if you want to name the exported images in numerical order.
 
 ## Manage DICOM files
 
