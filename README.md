@@ -1,7 +1,6 @@
 # VolumeShop
 Medical image essential software
 
-
 ![GitHub all releases](https://img.shields.io/github/downloads/huibaitu/volumeshop/total)
 
 This documentation mainly introduces the function and usage of VolumeShop.
@@ -17,17 +16,17 @@ There are a wide range of importing DICOM files to VolumeShop, you can choose th
 ### Import files using drag & drop
 Simply drag and drop selected files and / or directories into VolumeShop, where these ones are parsed and displayed by way of sorted series.
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/v1639471653/VolumeShop/dragFiles.gif" alt="dragFiles" width="100%"/>
+<img src="https://res.cloudinary.com/huibaitu/image/upload/v1640336478/VolumeShop/dragFiles.gif" alt="dragFiles" width="100%"/>
 
 ### Import files using right-click menu
 Right-click on selected files and / or directories and choose "Open with VolumeShop" from popup menu, VolumeShop will start and display those files. 
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/v1639474080/VolumeShop/rightButtonOpen.gif" alt="rightButtonOpen" width="100%"/>
+<img src="https://res.cloudinary.com/huibaitu/image/upload/v1640337318/VolumeShop/rightButtonOpen.gif" alt="rightButtonOpen" width="100%"/>
 
 ### Import file by double-click on it
 You can double click to open DICOM file in VolumeShop.
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/v1639534606/VolumeShop/doubleClickOpen.gif" alt="rightButtonOpen" width="100%"/>
+<img src="https://res.cloudinary.com/huibaitu/image/upload/v1640337749/VolumeShop/doubleClickOpen.gif" alt="rightButtonOpen" width="100%"/>
 
 ### Open directory
 Display all DICOM files in a directory.
@@ -43,15 +42,40 @@ Append the DICOM files in a directory to the existing list of series.
 
 1. Select "Add DICOM directory" in drop-down menu that comes up by clicking the arrow button right next to "Open directory" button.
 
-2. Select the directory you want to add and click "Choose" button from the pop-up dialog.
+2. Select the directory you want to add and click "Choose" button in the pop-up dialog.
 
 3. The DICOM files in added directory will merge with exsiting files, make sure that neither of patients, studies, series and images is redundant.
+
+### Recent directories
+In "Recent directories" of drop-down menu, the five most recent directories are listed that make it easier to find directories you have viewed with VolumeShop.
 
 ### Open files
 Display the selected files.
 
+1. Click "Open file" button or select "Open file" from drop-down menu on the right side of the button.
+
+2. From the pop-up dialog, select one or more DICOM files and click "Open" button.
+
+3. VolumeShop will display DICOM files with the sort by patient, study and series.
+
 ### Add files
 Append the chosen files to the existing list of series.
+
+1. Select "Add file" in drop-down menu that comes up by clicking the arrow button right next to "Open file" button.
+
+2. Select the files you want to add and click "Open" button in the pop-up dialog.
+
+3. The added DICOM files will merge with exsiting files, make sure that neither of patients, studies, series and images is redundant.
+
+### Recent files
+In "Recent files" of drop-down menu, the five most recent files are listed that make it easier to find DICOM files you have viewed with VolumeShop.
+
+## Export DICOM files
+Export DICOM file in BMP, JPG or PNG formats to save as a normal image for different uses.
+
+### Save as image
+
+### Save as image series
 
 ## Manage DICOM files
 
