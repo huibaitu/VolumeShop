@@ -21,7 +21,7 @@ Simply drag and drop selected files and / or directories into VolumeShop, where 
 ### Import files using right-click menu
 Right-click on selected files and / or directories and choose "Open with VolumeShop" from popup menu, VolumeShop will start and display those files. 
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/v1640337318/VolumeShop/rightButtonOpen.gif" alt="rightButtonOpen" width="100%"/>
+<img src="https://res.cloudinary.com/huibaitu/image/upload/v1640338192/VolumeShop/rightButtonOpen.gif" alt="rightButtonOpen" width="100%"/>
 
 ### Import file by double-click on it
 You can double click to open DICOM file in VolumeShop.
