@@ -5,6 +5,27 @@ Medical image essential software
 
 This documentation mainly introduces the function and usage of VolumeShop.
 
+## Settings
+VolumeShop provides a multilingual (English and Chinese) and multi-theme(dark and light) user interface, you can dynamically switch at any time in the 'Settings' subpanel.
+
+### Language settings
+Which language appears when you open VolumeShop for the first time depends on the system locale. For the time being, only two languages (English and Chinese) are available, other language is set as English for default. The language can be changed using the following steps.
+
+1. Click the 'Settings' tab on the toolbar.
+
+2. In the 'Setting' subpanel, click 'Language' button to dynamically change VolumeShop's language or select a language from the drop down menus of the button.
+
+<img src="https://res.cloudinary.com/huibaitu/image/upload/v1646100626/VolumeShop/languageSwitch.gif" alt="languageSwitch" width="100%"/>
+
+### Theme settings
+The default color theme for VolumeShop's user interface is 'Dark'. Here's how to change it to a different color theme.
+
+1. On the menu tab, select 'Settings'.
+
+2. In the 'Setting' subpanel, click 'Theme' button to dynamically switch between different themes or select a theme from the button's drop down menus.
+
+<img src="https://res.cloudinary.com/huibaitu/image/upload/v1646046338/VolumeShop/themeSwitch.gif" alt="themeSwitch" width="100%"/>
+
 ## Preview DICOM files
 VolumeShop provides a "DICOM file preview" feature that lets you view DICOM file (suffix '.dcm') as normal image in Windows Explorer. As shown below, thumbnails of DICOM files are easily presented after VolumeShop is installed. If not, please set VolumeShop as default app for '.dcm' files.
 
