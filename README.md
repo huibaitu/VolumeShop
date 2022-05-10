@@ -2,7 +2,6 @@
 Medical image essential software
 
 ![GitHub all releases](https://img.shields.io/github/downloads/huibaitu/volumeshop/total)
-[![Build Status](https://dev.azure.com/HuiBaiTu/VolumeShop/_apis/build/status/cylhf.VolumeShop?branchName=master)](https://dev.azure.com/HuiBaiTu/VolumeShop/_build/latest?definitionId=2&branchName=master)
 
 This documentation mainly introduces the function and usage of VolumeShop.
 
