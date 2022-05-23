@@ -13,7 +13,7 @@ Which language appears when you open VolumeShop for the first time depends on th
 
 1. Click the 'Settings' tab on the toolbar.
 
-2. In the 'Setting' subpanel, click <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652410223/VolumeShop/languageButton.png" alt="languageButton" style="zoom:50%" /> button to dynamically change VolumeShop's language or select a language from the drop down menus of the button.
+2. In the 'Setting' subpanel, click <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652410223/VolumeShop/languageButton.png" alt="languageButton" style="zoom:20%" /> button to dynamically change VolumeShop's language or select a language from the drop down menus of the button.
 
 <img src="https://res.cloudinary.com/huibaitu/image/upload/v1646100626/VolumeShop/languageSwitch.gif" alt="languageSwitch" width="100%"/>
 
@@ -22,13 +22,13 @@ The default color theme for VolumeShop's user interface is 'Dark'. Here's how to
 
 1. On the menu tab, select 'Settings'.
 
-2. In the 'Settings' subpanel, click <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652411612/VolumeShop/themeButton.png" alt="themeButton" style="zoom:50%" /> button to dynamically switch between different themes or select a theme from the button's drop down menus.
+2. In the 'Settings' subpanel, click <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652411612/VolumeShop/themeButton.png" alt="themeButton" style="zoom:20%" /> button to dynamically switch between different themes or select a theme from the button's drop down menus.
 
 <img src="https://res.cloudinary.com/huibaitu/image/upload/v1646046338/VolumeShop/themeSwitch.gif" alt="themeSwitch" width="100%"/>
 
 ### Full screen mode
 
-VolumeShop can enter full screen mode by clicking <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652412607/VolumeShop/fullScreenButton.png" alt="fullScreenButton" style="zoom:50%" /> button on the 'Settings' subsubpanel, and exit by clicking <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652412607/VolumeShop/exitFullScreenButton.png" alt="exitFullScreenButton" style="zoom:50%" /> button replaced at the same position.
+VolumeShop can enter full screen mode by clicking <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652412607/VolumeShop/fullScreenButton.png" alt="fullScreenButton" style="zoom:20%" /> button on the 'Settings' subsubpanel, and exit by clicking <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652412607/VolumeShop/exitFullScreenButton.png" alt="exitFullScreenButton" style="zoom:20%" /> button replaced at the same position.
 
 <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652176327/VolumeShop/fullScreen.gif" alt="fullScreen" width="100%"/>
 
@@ -144,14 +144,14 @@ Tip: Check "Rename in numerical order" in the Export dialog if you want to name 
 
 ### View DICOM tag
 
-Click <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652413698/VolumeShop/fileInfomationButton.png" alt="fileInfomationButton" style="zoom:50%" /> button, VolumeShop will pop up a new window to show the details of the file currently browsed. 
+Click <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652413698/VolumeShop/fileInfomationButton.png" alt="fileInfomationButton" style="zoom:20%" /> button, VolumeShop will pop up a new window to show the details of the file currently browsed. 
 
 <img src="https://res.cloudinary.com/huibaitu/image/upload/v1646302626/VolumeShop/dicomTag.png" alt="dicomTag" width="100%"/>
 
 ### Multi-window display
 
-From the drop-down menu of <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652416167/VolumeShop/multiwindowButton.png" alt="multiwindowButton" style="zoom:50%" /> button, select a layout to create multiply windows. The current subwindow will display the series chosen in preview region, you also can drag a series from preview region to the desired subwindow for display. Double-click on the subwindow to maximize it, then double-click again to restore to the multiwindow layout.
+From the drop-down menu of <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652416167/VolumeShop/multiwindowButton.png" alt="multiwindowButton" style="zoom:20%" /> button, select a layout to create multiply windows. The current subwindow will display the series chosen in preview region, you also can drag a series from preview region to the desired subwindow for display. Double-click on the subwindow to maximize it, then double-click again to restore to the multiwindow layout.
 <img src="https://res.cloudinary.com/huibaitu/image/upload/v1651913147/VolumeShop/multiwindow.gif" alt="multiwindow" width="100%"/>
 
-Click 'Open current study' in the drop-down menu of <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652416167/VolumeShop/multiwindowButton.png" alt="multiwindowButton" style="zoom:50%" /> button, you can open conveniently all series of the current study in multiply windows at the same time.
+Click 'Open current study' in the drop-down menu of <img src="https://res.cloudinary.com/huibaitu/image/upload/v1652416167/VolumeShop/multiwindowButton.png" alt="multiwindowButton" style="zoom:20%" /> button, you can open conveniently all series of the current study in multiply windows at the same time.
 <img src="https://res.cloudinary.com/huibaitu/image/upload/v1651466756/VolumeShop/openStudy.jpg" alt="openStudy" width="100%"/>
