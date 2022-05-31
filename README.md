@@ -3,6 +3,8 @@ Medical image essential software
 
 ![GitHub all releases](https://img.shields.io/github/downloads/huibaitu/volumeshop/total)
 
+[中文](README_CN.md)
+
 This documentation mainly introduces the function and usage of VolumeShop.
 
 ## Settings
