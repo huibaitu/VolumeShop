@@ -3,6 +3,8 @@
 
 ![GitHub all releases](https://img.shields.io/github/downloads/huibaitu/volumeshop/total)
 
+[English](README.md)
+
 本文档是VolumeShop的功能介绍和使用说明。
 
 ## 设置
