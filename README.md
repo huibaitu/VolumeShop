@@ -5,7 +5,7 @@ Medical image essential software
 
 [中文](README_CN.md)
 
-This documentation mainly introduces the functions and usage of VolumeShop.
+This documentation mainly introduces the function and usage of VolumeShop.
 
 ## Settings
 VolumeShop provides a multilingual (English and Chinese) and multi-theme(dark and light) user interface, you can dynamically switch at any time in the 'Settings' subpanel.
