@@ -180,4 +180,10 @@ VolumeShop provides three kinds of sync (slice location, window level, and zoom 
 
 ### Tile images
 
-VolumeShop could tile all images of the series when a user clicks on <img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/tileImagesButton.png" alt="tileImagesButton" style="zoom:50%" /> button.
+VolumeShop could tile all images of current series when you click on <img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/tileImagesButton.png" alt="tileImagesButton" style="zoom:50%" /> button. In series tile-view, several interactions are provided as follow:
+
+- Left mouse button double click: Returns to single image browsing mode.
+- Ctrl + mouse wheel forward: Zooms in on all images of series by decreasing the number (minimum: 4) of images per line.
+- Ctrl + mouse wheel backward: Zooms out on all images of series by increasing the number (maximum: 20) of images per line.
+
+<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/tileImages.gif" alt="tileImages" width="100%"/>
