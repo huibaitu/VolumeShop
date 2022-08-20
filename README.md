@@ -175,6 +175,7 @@ VolumeShop provides three kinds of sync (slice location, window level, and zoom 
 <img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/windowLevelSync.gif" alt="windowLevelSync" width="100%"/>
 
 - Zoom and pan sync
+
 <img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/zoomAndPanSync.gif" alt="zoomAndPanSync" width="100%"/>
 
 ### Tile images
