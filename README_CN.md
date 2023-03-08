@@ -2,6 +2,7 @@
 医学图像必备软件
 
 ![GitHub all releases](https://img.shields.io/github/downloads/huibaitu/volumeshop/total)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/huibaitu/VolumeShop)
 
 [English](README.md)
 
