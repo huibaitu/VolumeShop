@@ -1,5 +1,5 @@
 # VolumeShop
-Medical image essential software
+Medical image essential software for Windows and Linux
 
 ![GitHub all releases](https://img.shields.io/github/downloads/huibaitu/volumeshop/total)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/huibaitu/VolumeShop)
