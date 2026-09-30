@@ -1,44 +1,86 @@
-# VolumeShop
-医学图像必备软件
+VolumeShop
+========================
+![Version](https://img.shields.io/badge/version-1.7.0-blue.svg) ![VTK](https://img.shields.io/badge/VTK-9.1.0-blue.svg) ![ITK](https://img.shields.io/badge/ITK-5.1.0-blue.svg) ![Qt](https://img.shields.io/badge/Qt-5.15.2-blue.svg) ![Downloads](https://img.shields.io/github/downloads/huibaitu/VolumeShop/total)
 
-![GitHub all releases](https://img.shields.io/github/downloads/huibaitu/volumeshop/total)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/huibaitu/VolumeShop)
+[![Build Status](https://dev.azure.com/HuiBaiTu/VolumeShop/_apis/build/status/cylhf.VolumeShop?branchName=master)](https://dev.azure.com/HuiBaiTu/VolumeShop/_build/latest?definitionId=2&branchName=master)
 
-[English](README.md)
+## 概述
 
 本文档是VolumeShop的功能介绍和使用说明。
 
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/main.jpg" alt="main" width="100%"/>
+<figcaption>VolumeShop主界面</figcaption>
+</figure>
+
+提示：本文档与软件内“帮助 > 查看帮助”打开的内容一致。在线版本：[中文](https://volumeshop.cn/zh/documentation/) ｜ [English](https://volumeshop.cn/en/documentation/)。
+
 ## 设置
-VolumeShop提供了多语言(英语和汉语)与多主题(深色和亮色)的用户界面，您可以在“设置”子面板随时进行动态切换。 
+VolumeShop提供了多语言(英语和汉语)与多主题(深色和亮色)的用户界面，您可以在“设置”子面板随时进行动态切换。
 
 ### 语言设置
-VolumeShop首次打开时，界面语言与系统语言设置一致。 目前软件暂时只支持中文和英文两种语言，其他语言默认设置为英文。 可以通过以下步骤更改界面语言。  
+VolumeShop首次打开时，界面语言与系统语言设置一致。 目前软件暂时只支持中文和英文两种语言，其他语言默认设置为英文。 可以通过以下步骤更改界面语言。
 
 1. 点击工具栏上的“设置”选项卡。
 
-2. 在“设置”子面板中，单击<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/languageButton.png" alt="languageButton" style="zoom:50%" />按钮，可以动态地更改VolumeShop的界面语言，或者从该按钮的下拉菜单中选择一种语言。  
+2. 在“设置”子面板中，单击<img src="https://volumeshop.cn/images/languageButton.png" alt="languageButton" style="zoom:50%" />按钮，可以动态地更改VolumeShop的界面语言，或者从该按钮的下拉菜单中选择一种语言。
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/languageSwitch.gif" alt="languageSwitch" width="100%"/>
+<figure style="text-align: center;">
+  <img src="https://volumeshop.cn/images/language_en.jpg" alt="language_en" width="100%"/>
+  <figcaption>英文界面</figcaption>
+</figure>
+<figure style="text-align: center;">
+  <img src="https://volumeshop.cn/images/language_zh.jpg" alt="language_zh" width="100%"/>
+  <figcaption>中文界面</figcaption>
+</figure>
 
 ### 主题设置
 VolumeShop用户界面的默认颜色主题是“深色”。下面介绍如何将其更改为其他颜色主题。
 
 1. 在菜单选项卡选择“设置”标签。
 
-2. 在“设置”子面板,点击<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/themeButton.png" alt="themeButton" style="zoom:50%" />按钮切换不同主题，或者从下拉菜单选择主题。
+2. 在“设置”子面板,点击<img src="https://volumeshop.cn/images/themeButton.png" alt="themeButton" style="zoom:50%" />按钮切换不同主题，或者从下拉菜单选择主题。
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/themeSwitch.gif" alt="themeSwitch" width="100%"/>
+<figure style="text-align: center;">
+  <img src="https://volumeshop.cn/images/theme_light.jpg" alt="theme_light" width="100%"/>
+  <figcaption>亮色主题</figcaption>
+</figure>
+
+主题与语言设置会被保存，下次启动时自动沿用上次的选择。
+
+### 更新VolumeShop
+在“帮助”按钮的下拉菜单中选择“检查更新”，VolumeShop将连接更新服务器获取版本信息。
+
+更新对话框显示当前版本与最新版本、发布日期、安装日期和下载大小，并提供“有什么新功能”的内容。如果检测到新版本，可以点击“更新”开始下载，下载过程中可随时点击“停止”中断；下载完成后点击“安装”，VolumeShop会先关闭，再由更新程序完成安装。
+
+- 已经是最新版本时，VolumeShop会提示“已经是最新版本”。
+- 无法连接更新服务器时（例如网络不可用），VolumeShop会给出相应提示，不影响软件的正常使用。
+- 当有可用更新时，状态栏也会提示“新版本…发布”。
 
 ### 全屏模式
 
-VolumeShop可以通过单击“设置”子面板上的<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/fullScreenButton.png" alt="fullScreenButton" style="zoom:50%" />按钮进入全屏模式，并通过单击<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/exitFullScreenButton.png" alt="exitFullScreenButton" style="zoom:50%" />按钮退出。  
+VolumeShop可以通过单击“设置”子面板上的<img src="https://volumeshop.cn/images/fullScreenButton.png" alt="fullScreenButton" style="zoom:50%" />按钮进入全屏模式，并通过单击<img src="https://volumeshop.cn/images/exitFullScreenButton.png" alt="exitFullScreenButton" style="zoom:50%" />按钮退出。
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/fullScreen.gif" alt="fullScreen" width="100%"/>
+<figure style="text-align: center;">
+  <img src="https://volumeshop.cn/images/fullScreen.jpg" alt="fullScreen" width="100%"/>
+  <figcaption>全屏模式</figcaption>
+</figure>
+
+### 查看帮助与关于
+“帮助”按钮的下拉菜单提供以下条目：
+
+- **查看帮助**：在浏览器中打开本文档。
+- **检查更新**：检查是否有新版本。
+- **关于VolumeShop**：显示软件的版本、版权、服务条款，以及所使用的开源项目及其许可。
+- **关于汇百图**：显示开发商信息。
 
 ## DICOM文件预览
 VolumeShop提供了DICOM文件预览功能，能够让DICOM文件（后缀 “.dcm”）像普通图像文件一样在Windows资源管理器中预览。如下图所示，在VolumeShop完成安装之后，DICOM文件可以直接显示略缩图。如果未能达到效果，请将VolumeShop设为“.dcm"文件的默认打开程序。
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/preview.jpg" alt="dicomPreview" width="100%"/>
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/preview.jpg" alt="dicomPreview" width="100%"/>
+  <figcaption>DICOM文件预览</figcaption>
+</figure>
 
 ## 导入DICOM文件
 VolumeShop支持多种文件导入方式，可以根据实际场景选择最方便的方式。
@@ -46,24 +88,18 @@ VolumeShop支持多种文件导入方式，可以根据实际场景选择最方�
 ### 使用文件拖拽操作导入
 拖拽选中的目录和文件到VolumeShop，软件将解析并按照序列分类显示这些文件。
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/dragFiles.gif" alt="dragFiles" width="100%"/>
-
 ### 使用右键菜单导入文件
 右键单击选中的文件或目录，在弹出的菜单中选择“使用VolumeShop打开”，软件将显示这些文件。
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/rightButtonOpen.gif" alt="rightButtonOpen" width="100%"/>
-
 ### 双击文件导入
 双击DICOM文件直接打开。
-
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/doubleClickOpen.gif" alt="rightButtonOpen" width="100%"/>
 
 ### 打开目录
 显示目录中的所有DICOM文件。
 
 1. 点击“打开目录”按钮或从按钮下拉菜单中选择“打开DICOM目录”。
 
-2. 从弹出的对话框选中打开的目录，点击“选择”按钮。 
+2. 从弹出的对话框选中打开的目录，点击“选择”按钮。
 
 3. VolumeShop按照病人、检查和序列的方式排列显示文件。
 
@@ -98,7 +134,7 @@ VolumeShop支持多种文件导入方式，可以根据实际场景选择最方�
 3. 增加的文件与已经打开的文件进行合并，确保病人、检查、序列和图像不重复。
 
 ### 最近打开的文件
-I在“打开文件”按钮下拉菜单“最近打开的文件”罗列最近打开的五个文件目录，可再次打开这些文件。
+在“打开文件”按钮下拉菜单“最近打开的文件”罗列最近打开的五个文件目录，可再次打开这些文件。
 
 ## 导出DICOM文件
 使用VolumeShop，可以很方便地将DICOM文件导出为BMP、JPG、PNG图像。在“保存文件”按钮下拉菜单选择“另存为图像”或“另存为图像序列”可导出当前显示的DICOM文件或序列。
@@ -129,65 +165,367 @@ I在“打开文件”按钮下拉菜单“最近打开的文件”罗列最近�
 
 ## 管理DICOM文件
 
+### 数据列表
+“组件可见性”按钮下拉菜单中的“数据列表”控制左侧数据列表的显示与隐藏。数据列表按照病人、检查、序列的层次罗列已载入的数据，点击其中的序列即可在预览区显示。
+
+### 图像上显示元素的控制
+“组件可见性”按钮的下拉菜单还可以控制图像上各显示元素的开关，这些开关同时作用于预览区和浏览区：
+
+- **隐私**：控制病人姓名等隐私信息的显示，便于截图或示教时隐去病人信息。
+- **图像说明**：控制图像四角说明文字的显示（检查/序列/图像序号、病人信息、窗宽窗位与层厚位置、设备信息等）。
+- **刻度尺**：控制图像上标尺的显示。
+- **覆盖**：控制DICOM覆盖层（Overlay）的显示。
+- **交叉参考线**：控制多窗口显示时，其它视图中当前切片位置参考线的显示。
+
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/browse.jpg" alt="browse" width="100%"/>
+<figcaption>浏览界面上显示的各类信息</figcaption>
+</figure>
+
+### 关闭打开的条目
+点击“关闭打开的条目”按钮可从下拉菜单选择“关闭全部”，清空当前已打开的条目。也可以单独关闭数据列表中某个检查或序列。
+
+### 数据库
+点击“数据库”按钮打开数据库对话框，可以将本机上的DICOM数据建立索引，便于检索和重复使用。
+
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/dataManagement.jpg" alt="dataManagement" width="100%"/>
+<figcaption>数据库对话框</figcaption>
+</figure>
+
+对话框自左向右依次为：
+
+- **目录**：数据库已索引的目录树，可在其中勾选需要查看的目录。
+- **检查列表**：当前目录或检索结果中的检查，显示检查时间、检查描述、病人姓名/ID、出生日期、性别、年龄、机构名称等。
+- **序列列表**：选中检查下包含的序列，显示序列时间、序列号、模态、序列描述、协议、设备模型、图像数量等。
+- **图像预览**：选中序列的首帧图像预览。
+
+对话框中提供的操作：
+
+1. **导入目录 / 导入文件**：将DICOM目录或文件导入数据库并建立索引。
+2. **更新数据库**：重新扫描已索引的目录，将新增的文件纳入数据库。
+3. **查找**：在右上角的输入框输入关键字，可在检查中检索。
+4. **删除记录**：删除选中的记录。
+5. **打开显示 / 加入显示**：将选中的检查或序列载入主窗口显示（“加入显示”在已载入的数据基础上追加，不重复载入）。
+6. **导出**：将选中的检查或序列导出为图像。
+
 ## 浏览DICOM文件
 
 ### 浏览序列图像
+载入序列后，VolumeShop进入浏览界面。左侧为序列中所有图像的缩略列表，中间为当前图像，右侧显示当前图像在序列中的位置和序列缩略图。
+
+- **切换切片**：滚动鼠标滚轮，或按键盘的 ↑ / ↓ 方向键。
+- **跳转切片**：拖动窗口底部的切片滑块，或点击缩略列表中的图像。
+- **图像信息**：图像四角显示检查/序列/图像序号、病人信息、窗宽窗位与层厚位置、设备信息等；左下角显示当前的缩放比例。
 
 ### 调窗
+调整窗宽窗位可以改变图像的对比度和亮度。VolumeShop提供了多种调窗方式：
 
+1. **拖动调窗**：在图像上按住鼠标左键上下/左右拖动。上下方向改变窗宽（对比度），左右方向改变窗位（亮度）。
+2. **预设窗位**：点击“调窗”按钮下拉菜单中的“预设窗位”，可以选择针对不同部位预设的窗宽窗位，例如骨、腹部、脑、肺、肝、纵隔、软组织等。
+3. **自定义窗位**：在下拉菜单中选择“自定义窗位”，在弹出的对话框中直接输入窗宽和窗位。
+4. **缺省窗位**：在下拉菜单中选择“缺省窗位”，恢复到DICOM文件中记录的窗宽窗位。
+5. **反相**：下拉菜单中的“反相”将图像的黑白反转显示。
 
 ### 缩放图像
+- **滚轮缩放**：按住 Ctrl 键滚动鼠标滚轮，以鼠标所在位置为中心缩放图像。
+- **拖动缩放**：在图像上按住鼠标右键上下拖动。
+- **按比例缩放**：点击“缩放”按钮下拉菜单中的“实际尺寸(100%)”、“2倍尺寸（200%）”、“4倍尺寸（400%）”可快速缩放到指定比例。
+- **自定义尺寸**：选择“自定义尺寸”，在弹出的对话框中输入缩放因子。
+- **填充视窗**：选择“填充视窗”，使图像自适应窗口大小。
 
 ### 平移图像
+按住鼠标中键拖动即可平移图像。若当前选中了“平移”工具，也可以直接按住鼠标左键拖动。
 
 ### 旋转图像
+点击“旋转和翻转”按钮下拉菜单中的“顺时针旋转90°”或“逆时针旋转90°”可旋转当前图像。
 
 ### 翻转图像
+点击“旋转和翻转”按钮下拉菜单中的“水平翻转”或“垂直翻转”可翻转当前图像。
 
 ### 重置图像
+点击“重置”按钮，图像恢复到初始的显示状态（缩放、平移、旋转、翻转和反相全部复位）。
+
+### 显示尺寸与插值
+“缩放”按钮下拉菜单中的“插值”提供两种图像插值方式：
+
+- **无**：按最近邻方式放大显示，图像呈方块状，适合观察像素灰度值。
+- **线性**：双线性插值，放大后图像更为平滑（缺省设置）。
+
+### 连续播放
+点击“连续播放”按钮，其下拉菜单中提供一组播放控制：播放/暂停、起始/后退/前进/结尾、每秒帧数调整（加速/减速/重设FPS）、交换播放方向以及停止。连续播放适合观察动态序列。
+
+### 截图
+点击“截图”按钮可将当前视图保存为BMP、JPG或PNG图像。保存的图像与屏幕所见完全一致，包含图像上显示的各种标注信息。
 
 ### 查看DICOM标签
 
-点击<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/fileInfomationButton.png" alt="fileInfomationButton" style="zoom:50%" />按钮，VolumeShop将弹出一个显示当前浏览文件详细信息的新窗口。
+点击<img src="https://volumeshop.cn/images/fileInfomationButton.png" alt="fileInfomationButton" style="zoom:50%" />按钮，VolumeShop将弹出一个显示当前浏览文件详细信息的新窗口。
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/dicomTag.png" alt="dicomTag" width="100%"/>
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/dicomTag.png" alt="dicomTag" width="100%"/>
+<figcaption>DICOM文件头显示</figcaption>
+</figure>
+
+文件信息窗口按标签（Tag）、值表示（VR）、值多重性（VM）、值长度（Length）、描述（Description）、值（Value）逐项列出DICOM数据元。工具栏上的“增加一列”可以在列表中增加显示一列信息。
 
 ### 多窗口显示
 
 - 选择多窗布局
 
-从<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/multiwindowButton.png" alt="multiwindowButton" style="zoom:50%" />按钮的下拉菜单选择一个布局来创建多个窗口，当前子窗口将显示在预览区选中的序列，您也可以将一个序列从预览区域拖动到所需的子窗口进行显示。双击子窗口使其最大化，然后再次双击以恢复到多窗口布局。
+从<img src="https://volumeshop.cn/images/multiwindowButton.png" alt="multiwindowButton" style="zoom:50%" />按钮的下拉菜单选择一个布局来创建多个窗口，当前子窗口将显示在预览区选中的序列，您也可以将一个序列从预览区域拖动到所需的子窗口进行显示。双击子窗口使其最大化，然后再次双击以恢复到多窗口布局。
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/multiwindow.gif" alt="multiwindow" width="100%"/>
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/multiwindow.jpg" alt="multiwindow" width="100%"/>
+  <figcaption>多窗口显示</figcaption>
+</figure>
 
 - 打开当前检查
 
-点击<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/multiwindowButton.png" alt="multiwindowButton" style="zoom:50%" />按钮下拉菜单中的“打开当前检查”，可以方便地在多个窗口中同时打开当前检查的所有序列。  
+点击<img src="https://volumeshop.cn/images/multiwindowButton.png" alt="multiwindowButton" style="zoom:50%" />按钮下拉菜单中的“打开当前检查”，可以方便地在多个窗口中同时打开当前检查的所有序列。
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/openStudy.jpg" alt="openStudy" width="100%"/>
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/openStudy.jpg" alt="openStudy" width="100%"/>
+<figcaption>多窗口显示检查中全部序列</figcaption>
+</figure>
 
 ### 序列同步
 
-VolumeShop提供了三种序列之间的同步（切片位置、窗宽窗位以及缩放和平移）。窗宽窗位同步缺省是关闭状态，其它同步缺省是开启状态。在<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/seriesSyncButton.png" alt="seriesSyncButton" style="zoom:50%" />按钮下拉菜单可以切换这些同步的开启和关闭状态。
+VolumeShop提供了三种序列之间的同步（切片位置、窗宽窗位以及缩放和平移）。窗宽窗位同步缺省是关闭状态，其它同步缺省是开启状态。在<img src="https://volumeshop.cn/images/seriesSyncButton.png" alt="seriesSyncButton" style="zoom:50%" />按钮下拉菜单可以切换这些同步的开启和关闭状态。
 
 - 切片位置同步
-
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/sliceLocationSync.gif" alt="sliceLocationSync" width="100%"/>
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/sliceLocationSync.jpg" alt="sliceLocationSync" width="100%"/>
+<figcaption>切片位置同步</figcaption>
+</figure>
 
 - 窗宽窗位同步
-
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/windowLevelSync.gif" alt="windowLevelSync" width="100%"/>
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/windowLevelSync.jpg" alt="windowLevelSync" width="100%"/>
+  <figcaption>窗宽窗位同步</figcaption>
+</figure>
 
 - 缩放和平移同步
-
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/zoomAndPanSync.gif" alt="zoomAndPanSync" width="100%"/>
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/zoomAndPanSync.jpg" alt="zoomAndPanSync" width="100%"/>
+  <figcaption>缩放和平移同步</figcaption>
+</figure>
 
 ### 平铺图像
 
-点击<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/tileImagesButton.png" alt="tileImagesButton" style="zoom:50%" />按钮，VolumeShop可以平铺显示序列中的所有图像。在序列平铺视图，提供了如下几种交互方式：
+点击<img src="https://volumeshop.cn/images/tileImagesButton.png" alt="tileImagesButton" style="zoom:50%" />按钮，VolumeShop可以平铺显示序列中的所有图像。在序列平铺视图，提供了如下几种交互方式：
 
 - 鼠标左键双击：返回单图像浏览模式。
 - Ctrl + 鼠标滚轮向前：通过减少每行图像的数量(最小为4)来放大序列的所有图像。
 - Ctrl + 鼠标滚轮向后：通过增加每行图像的数量(最大为20)来缩小序列的所有图像。
 
-<img src="https://res.cloudinary.com/huibaitu/image/upload/VolumeShop/tileImages.gif" alt="tileImages" width="100%"/>
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/tileImages.jpg" alt="tileImages" width="100%"/>
+<figcaption>平铺序列所有图像</figcaption>
+</figure>
+
+## 多平面重建
+多平面重建（MPR）是一种后处理技术，它将从特定平面获取的一系列二维图像重新切片，转换为另一个平面。
+
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/mpr.jpg" alt="mpr" width="100%"/>
+<figcaption>多平面重建</figcaption>
+</figure>
+此外，重建数据还可以用来生成最大密度投影（MIP）、最小密度投影（MinIP）或平均密度投影（AIP）。
+
+### 重建视图的操作
+MPR视图默认将窗口划分为三个视图，分别显示矢状面（Sagittal）、冠状面（Coronal）和轴状面（Axial）重建图像。
+
+- **切换切片**：滚动鼠标滚轮，或按住鼠标左键上下拖动。
+- **调窗**：按住鼠标右键拖动。
+- **缩放**：按住鼠标中键拖动，或按住 Ctrl 键滚动鼠标滚轮。
+- **平移**：按住 Ctrl 键并按住鼠标左键拖动。
+- **重置**：点击“重置”按钮恢复重建视图的初始状态。
+
+### 切片线与切片厚度
+- **拖动切片线**：每个视图中显示有代表其它两个平面位置的红、绿、蓝三条切片线。拖动某条切片线即可改变对应平面上的切片位置，从而浏览任意角度的重建图像。
+- **链接切片线**：点击“链接切片线”按钮，其下拉菜单中的“可见性”控制切片线的显示与隐藏，“联动性”控制切片线是否可拖动（关闭联动后切片线仅作参考，不响应拖动）。
+- **切片厚度**：点击“切片厚度”按钮，在下拉菜单中选择 MPR、MIP、MinIP 或 AIP 的重建方式。在 MIP / MinIP / AIP 模式下，可以拖动切片平面两侧的边界线改变切片厚度，厚度实时生效。
+
+### 最大密度投影
+最大密度投影（MIP）是指在指定厚度的切片中，将每个视图中具有最大灰度的体素投影到二维图像上。
+
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/mip.jpg" alt="mip" width="100%"/>
+<figcaption>最大密度投影</figcaption>
+</figure>
+
+### 最小密度投影
+最小灰度投影（MinIP）与 MIP 类似，但投影的是具有最小灰度的体素。
+
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/minIP.jpg" alt="minIP" width="100%"/>
+<figcaption>最小密度投影</figcaption>
+</figure>
+
+### 平均密度投影
+平均灰度投影（AIP）是将切片中各个体素的平均灰度值投影到二维图像上，与 MIP 和 MinIP 相比，提供了一个平均的灰度视图。
+
+<figure style="text-align: center;">
+<img src="https://volumeshop.cn/images/aip.jpg" alt="aip" width="100%"/>
+<figcaption>平均密度投影</figcaption>
+</figure>
+
+## 三维重建
+三维（3D）页签将当前序列重建为三维模型进行观察，支持体绘制和多种显示元素，可从任意角度观察解剖结构。
+
+### 三维视图的操作
+三维视图通过工具栏按钮切换鼠标操作的映射，当前生效的操作会显示在对应按钮的图标上：
+
+- **三维旋转**：按住鼠标左键拖动旋转模型。
+- **转动（Roll）**：按住鼠标左键拖动，以视线方向为轴转动模型。
+- **平移**：按住鼠标中键拖动，或选中“平移”后按住左键拖动。
+- **缩放**：滚动鼠标滚轮，或选中“缩放”后按住左键拖动。
+- **调窗**：按住鼠标右键拖动；也可以选中“调窗”后按住左键拖动。
+
+### 切片平面
+点击“切片平面”按钮，下拉菜单中的“所有切片平面”可一次控制红、绿、蓝三个切片平面的显示与隐藏，也可以单独控制其中某一个平面。三维视图中显示切片平面，有助于理解当前浏览位置在空间中的关系。
+
+### 包围盒与体绘制
+- **包围盒可见性**：点击“包围盒可见性”按钮控制包围盒的显示与隐藏。
+- **体绘制可见性**：点击“体绘制可见性”按钮控制体绘制（三维模型本体）的显示与隐藏。
+
+这两项设置会被自动保存，下次进入三维页签时沿用上次的状态。
+
+### 颜色和不透明度预设
+点击“颜色和不透明度预设”按钮，下拉菜单中列出了针对不同解剖部位预设的颜色与不透明度方案，例如缺省、骨骼、肌肉、皮肤、血管、脊柱、骨盆、胸腔等。选择相应的预设，可以获得更适合观察目标的显示效果。
+
+## 测量
+测量工具位于“测量和标记”按钮的下拉菜单中。选中某个工具后，在图像上绘制即可完成测量，测量结果会实时显示在图像上。
+
+所有测量工具的通用操作：
+
+- **绘制**：在图像上按住鼠标左键从起点拖动到终点，松开鼠标完成绘制。除铅笔和路径外的形状都可以这样一次拖出。
+- **修改**：单击测量图形将其选中，图形上会出现控制点，拖动控制点即可修改形状和尺寸。
+- **删除**：选中后在“测量和标记”下拉菜单中选择“删除选中标记”，或右键单击图形，在弹出菜单中选择删除。
+
+### 长度
+测量两点之间的距离，显示为 `D: 长度值 cm`。按住左键从起点拖到终点，松开完成。
+
+### 角度
+测量两线段的夹角，由三个点确定：先在图像上拖出角的一条边，松开鼠标后再拖到第三个点的位置，松开完成。中间的拖动点即为角的顶点。
+
+### 交叉长度
+测量两条相交线段的长度（例如用于测量病灶的最大径和与其垂直的径线）。先拖出第一条线段，松开后拖动第二条线段，松开完成，两条线段的中点重合。
+
+### 矩形
+拖出矩形的一条对角线即可绘制矩形，结果中显示长、宽、面积以及矩形区域内灰度的均值、方差和最小/最大值。
+
+### 正方形
+拖出正方形的一条对角线即可绘制正方形，测量内容与矩形相同。
+
+### 椭圆
+拖出椭圆的外接矩形对角线即可绘制椭圆，结果中显示长轴、短轴、面积以及椭圆区域内灰度的均值、方差和最小/最大值。
+
+### 圆形
+从圆心向外拖动，或拖出外接正方形的对角线即可绘制圆形，结果中显示直径和圆形区域内灰度的统计值。
+
+### 开放路径
+沿感兴趣区域的轮廓**连续单击**鼠标左键逐点添加顶点，**双击**结束绘制。开放路径首尾不相连，结果中显示路径长度和所围区域的面积。
+
+### 封闭路径
+操作方式与开放路径相同，**连续单击**添加顶点、**双击**结束绘制，VolumeShop会自动将首尾顶点连接形成封闭图形。结果中显示周长和面积。
+
+### Cobb角
+Cobb角用于测量脊柱侧凸的角度，由两条线段确定。第一次拖动绘制一条终板线，松开鼠标后第二次拖动绘制另一条终板线，松开完成。两条线段的夹角即为Cobb角。
+
+### 偏移
+测量某个位置相对于参考线的偏移量。
+
+## 标记
+“测量和标记”按钮下拉菜单中的箭头、文字和铅笔工具用于在图像上添加说明性标记，这些标记不产生测量数值。
+
+### 箭头
+按住鼠标左键从箭尾拖到箭头所指的位置，松开完成。箭头用于指示感兴趣的位置。
+
+### 文字
+在图像上单击需要添加说明的位置，输入文字后确认，文字即添加到该位置。
+
+### 铅笔
+按住鼠标左键在图像上自由绘制，松开鼠标结束。铅笔适合勾勒不规则轮廓或进行手绘标注。
+
+## 标记的编辑与管理
+所有测量和标记（以下统称标记）都保存在对应的图像上，可以随时修改、复制或删除。“测量和标记”按钮的下拉菜单中，工具项下方依次为拷贝/粘贴、复制到其它图像，以及删除三组操作。
+
+### 选中与修改
+- 单击标记的图形或文字即可将其选中，选中的标记会以高亮方式显示并出现控制点。
+- 拖动控制点可以修改标记的大小和形状；拖动标记本体可以整体移动标记。
+- 未选中任何标记时，菜单中的“拷贝选中标记”“删除选中标记”等条目为不可用状态。
+
+### 拷贝与粘贴
+- **拷贝选中标记**：将当前选中的标记拷贝到剪贴板。
+- **拷贝图像全部标记**：将当前图像上的所有标记拷贝到剪贴板。
+- **粘贴标记**：将剪贴板中的标记粘贴到当前图像。
+
+### 复制到其它图像、窗口或序列
+为避免逐张图像重复绘制，VolumeShop提供了将标记批量复制到其它图像的功能：
+
+- **复制选中标记 / 复制图像全部标记到后一图像、前一图像**：把标记复制到相邻的切片上。
+- **复制选中标记 / 复制图像全部标记到序列其他图像**：把标记复制到本序列的其它图像上。
+- **复制选中标记 / 复制图像全部标记到其他窗口**：把标记复制到其它子窗口中打开的序列的同位置图像上，便于多窗口之间对照。
+
+### 删除
+- **删除选中标记**：删除当前选中的标记。
+- **删除图像全部标记**：删除当前图像上的所有标记。
+- **删除序列全部标记**：删除本序列所有图像上的全部标记。
+
+也可以右键单击某个标记，在弹出菜单中选择删除。
+
+## 附：鼠标与键盘操作汇总
+
+### 浏览页签
+工具栏中的“切换”“调窗”“缩放”“平移”按钮用于选择当前主操作：被选中的按钮图标上会显示其对应的鼠标按键。
+
+| 按钮 | 左键 | 右键 | 中键 | 滚轮 |
+|---|---|---|---|---|
+| 调窗（缺省） | 调窗 | 缩放 | 平移 | 切换切片 |
+| 切换 | 切换切片 | 调窗 | 平移 | 以光标为中心缩放 |
+| 缩放 | 缩放 | 调窗 | 平移 | 切换切片 |
+| 平移 | 平移 | 缩放 | 调窗 | 切换切片 |
+
+补充：
+
+| 操作 | 说明 |
+|---|---|
+| Ctrl + 左键拖动 | 平移图像 |
+| Ctrl + 滚轮 | 以光标位置为中心缩放 |
+| ↑ / ↓ 方向键 | 切换切片 |
+| 双击子窗口 | 最大化 / 恢复子窗口 |
+
+### 多平面重建页签
+与浏览页签相同，使用“切换”“调窗”“缩放”“平移”按钮选择主操作：
+
+| 按钮 | 左键 | 右键 | 中键 | 滚轮 |
+|---|---|---|---|---|
+| 调窗（缺省） | 调窗 | 缩放 | 平移 | 切换切片 |
+| 切换 | 切换切片 | 调窗 | 平移 | 以光标为中心缩放 |
+| 缩放 | 缩放 | 调窗 | 平移 | 切换切片 |
+| 平移 | 平移 | 缩放 | 调窗 | 切换切片 |
+
+在 MIP / MinIP / AIP 模式下，可以拖动切片平面两侧的边界线调整切片厚度。
+
+### 三维页签
+
+| 当前工具 | 左键 | 右键 | 中键 | 滚轮 |
+|---|---|---|---|---|
+| 三维旋转（缺省） | 三维旋转 | 调窗 | 平移 | 缩放 |
+| 转动 | 转动 | 调窗 | 平移 | 缩放 |
+| 平移 | 平移 | 调窗 | 三维旋转 | 缩放 |
+| 缩放 | 缩放 | 调窗 | 平移 | 转动 |
+| 调窗 | 调窗 | 三维旋转 | 平移 | 缩放 |
+
+### 测量与标记
+
+| 操作 | 说明 |
+|---|---|
+| 左键拖动 | 绘制两点或多点形状（角度、交叉长度、Cobb角为分段绘制） |
+| 左键连续单击 + 双击 | 绘制开放路径 / 封闭路径 |
+| 左键按住拖动 | 铅笔自由绘制 |
+| 左键单击 | 选中标记；文字工具则在该位置添加文字 |
+| 拖动控制点 | 修改选中标记的形状和尺寸 |
+| 右键单击标记 | 打开标记的弹出菜单（删除等） |
