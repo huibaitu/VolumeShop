@@ -1,6 +1,6 @@
 VolumeShop
 ========================
-![Version](https://img.shields.io/badge/version-1.7.0-blue.svg) ![VTK](https://img.shields.io/badge/VTK-9.1.0-blue.svg) ![ITK](https://img.shields.io/badge/ITK-5.1.0-blue.svg) ![Qt](https://img.shields.io/badge/Qt-5.15.2-blue.svg) ![Downloads](https://img.shields.io/github/downloads/huibaitu/VolumeShop/total)
+![Version](https://github.com/huibaitu/VolumeShop/releases/latest) ![VTK](https://img.shields.io/badge/VTK-9.1.0-blue.svg) ![ITK](https://img.shields.io/badge/ITK-5.1.0-blue.svg) ![Qt](https://img.shields.io/badge/Qt-5.15.2-blue.svg) ![Downloads](https://img.shields.io/github/downloads/huibaitu/VolumeShop/total)
 
 [![Build Status](https://dev.azure.com/HuiBaiTu/VolumeShop/_apis/build/status/cylhf.VolumeShop?branchName=master)](https://dev.azure.com/HuiBaiTu/VolumeShop/_build/latest?definitionId=2&branchName=master)
 
